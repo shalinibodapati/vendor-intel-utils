@@ -40,8 +40,8 @@ index e1d418b..4888a76 100644
 -		"avx":    []string{"-mavx"},
 -		"avx2":   []string{"-mavx2"},
 -		"avx512": []string{"-mavx512"},
-+                // Not all cases there is performance gain by enabling avx flags.
-+                // Individual modules need to enable it
++  // Not all cases there is performance gain by enabling avx flags.
++  // Individual modules need to enable it
 +		//"avx":    []string{"-mavx"},
 +		//"avx2":   []string{"-mavx2"},
 +		//"avx512": []string{"-mavx512"},
